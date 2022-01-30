@@ -3,7 +3,7 @@ var revisao=3
 for(km=0; km<revisao; km++){
     console.log("apenas " + km + "kms então pode rodar");
 }
-*/
+
 
 var alunos=[
     [6,7,8,6],
@@ -29,4 +29,11 @@ for ( var i=0; i<alunos.length;i++){
         resultado="reprovado";
     }
     console.log("Media "+ media + " - " + resultado);        
+}*/
+
+var hora = 0;
+while(hora<24)
+{
+    hora++;
+    console.log(hora)
 }
