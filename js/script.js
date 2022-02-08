@@ -59,6 +59,7 @@ document.addEventListener('submit', function( evento ){
         notas.push( parseInt(dados.get(key)));
 
     }
+    
 
     console.log(notas);
 
